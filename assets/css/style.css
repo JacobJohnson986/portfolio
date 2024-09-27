@@ -657,3 +657,22 @@ footer{
     margin-top: 10px;   /* Add space below the button */
     display: inline-block; /* Ensure it stays inline */
 }
+
+/* General styles for the download button */
+.download-icon {
+    display: flex; /* Ensure that the icon uses flexbox */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center;
+    width: 100%; /* Ensure it takes the full width available */
+  }
+  
+  /* Mobile-specific adjustments using media queries */
+  @media screen and (max-width: 768px) {
+    .download-icon {
+      /* Further adjustments for mobile */
+      font-size: 16px; /* Adjust the font size if needed */
+      padding: 10px 20px; /* Adjust padding to ensure proper spacing */
+    }
+  }
+  
