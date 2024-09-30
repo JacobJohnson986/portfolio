@@ -686,9 +686,8 @@ footer{
 } */
 
 .featured-text-btn {
-    display: flex;
-    justify-content: center; /* This will center the button horizontally */
-    align-items: center; /* This ensures vertical centering */
+    display: inline-flex; /* Keep the buttons inline with the content width */
+    align-items: center; /* Vertically center the button */
     margin-top: 20px; /* Adjust if needed */
-    width: 100%; /* Ensures the container takes up the full width */
+    width: auto; /* Remove the full width to fit content */
 }
