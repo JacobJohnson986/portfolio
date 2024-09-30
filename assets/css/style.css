@@ -676,11 +676,19 @@ footer{
     }
   }
   
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .featured-text-btn {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
+} */
+
+.featured-text-btn {
+    display: flex;
+    justify-content: center; /* This will center the button horizontally */
+    align-items: center; /* This ensures vertical centering */
+    margin-top: 20px; /* Adjust if needed */
+    width: 100%; /* Ensures the container takes up the full width */
 }
