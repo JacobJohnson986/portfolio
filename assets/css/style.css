@@ -676,3 +676,11 @@ footer{
     }
   }
   
+  @media (max-width: 768px) {
+    .featured-text-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}
