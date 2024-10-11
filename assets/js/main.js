@@ -107,3 +107,4 @@ if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
     .then(reg => console.log('Service Worker Registered', reg))
     .catch(err => console.error('Service Worker Registration Failed', err));
 }
+
